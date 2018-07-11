@@ -9,14 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDJ5GDVjCPGjCOhpo0JtlaObLtCqRc5xNQ" />
+
         <activity android:name=".java.Splash">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".java.Home">
-        </activity>
+        <activity android:name=".java.Home"></activity>
+        <activity android:name=".java.Display"></activity>
     </application>
 
 </manifest>
